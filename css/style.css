@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,600;1,700&display=swap');
+
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/cards.css");
+
+body { 
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	margin:0px;
+	background: rgba(9,107,4,0.2);  
+}
+
+h1 { font-family: 'Dancing';
+	font-size: 20px;
+}
+
+h2, h3 {
+	font-family: 'Lora',
+	font-weight: bold;
+}
+
+a{ 
+text-decoration: none;
+}
+
+a:hover { color :rgba(152,227,242,0.1);
+}
